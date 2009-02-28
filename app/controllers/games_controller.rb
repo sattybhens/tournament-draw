@@ -5,6 +5,9 @@ class GamesController < ApplicationController
     @championship_game = Game.final
   end
 
+  def demo
+  end
+  
   # GET /Games/1/edit
   def edit
     @game = Game.find(params[:id])
